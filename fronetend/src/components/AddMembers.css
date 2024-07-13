@@ -1,0 +1,53 @@
+/* AddMemberForm.css */
+.add-member-form-container {
+    display: flex;
+    justify-content: center;
+    box-shadow:4px 4px 4px 4px rgba(0, 0, 0, 0.389) ;
+    width: fit-content;
+    padding: 30px 30px;
+    border-radius: 10px; 
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Poppins';
+ }
+  
+  .add-member-form {
+    width: 400px; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .add-member-form h3{
+    /* background-color: #dc3545; */
+    width: 100%;
+    text-align: center;
+    color:rgb(7,7,50);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    /* box-shadow: 2px 2px 2px 2px rgba(40, 38, 38, 0.347); */
+  }
+  
+  .input-field {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+
+    color: white;
+    border: solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .form-floating{
+    width: 400px;
+  }

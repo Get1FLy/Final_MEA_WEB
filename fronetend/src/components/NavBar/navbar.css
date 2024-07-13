@@ -1,0 +1,67 @@
+.mynavbar header{
+   background-color: rgb(255, 255, 255);
+   /* box-shadow: 2px 5px 4px rgba(255, 255, 255, 0.256); */
+   /* border-bottom: solid 0px black; */
+
+   font-family: 'Poppins';
+   
+
+}
+.mynavbar{
+   background-color: rgb(255, 255, 255);
+   /* box-shadow: 2px 5px 4px rgba(255, 255, 255, 0.256); */
+   border-bottom: solid 0px black;
+
+   font-family: 'Poppins';
+
+}
+.mynavbar ul li{
+   margin:0px 5px;
+   /* gap:5px; */
+   font-size: 16px;
+}
+
+#nav_search_bar{
+   width: 300px;
+}
+
+li a:hover{
+   cursor: pointer;
+}
+header{
+   background-color: rgb(255, 255, 255);
+
+
+}
+
+
+.alert_icons{
+   color: black;
+   display: inline-block;
+   animation: ring 1.5s ease-in-out infinite;
+ 
+}
+
+.alert_icons:hover{
+   color: navy;
+   /* background-color: red; */
+}
+
+@keyframes ring {
+   0% { transform: rotate(0); }
+   10% { transform: rotate(10deg); }
+   20% { transform: rotate(-10deg); }
+   30% { transform: rotate(10deg); }
+   40% { transform: rotate(-10deg); }
+   50% { transform: rotate(10deg); }
+   60% { transform: rotate(-10deg); }
+   70% { transform: rotate(10deg); }
+   80% { transform: rotate(-10deg); }
+   90% { transform: rotate(10deg); }
+   100% { transform: rotate(0); }
+ }
+
+
+ .alert_icons.stopped {
+   animation: none;
+ }

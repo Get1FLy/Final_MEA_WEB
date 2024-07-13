@@ -1,0 +1,33 @@
+
+.notice-board {
+    overflow: hidden;
+  }
+  
+  .notices-container {
+    display: flex;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .notice-item {
+    margin-right: 20px;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .paused {
+    animation-play-state: paused;
+  }
+  
+
+  .pdf-logo {
+    width: 20px; /* Set the width of the PDF logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Adjust margin as needed */
+  }

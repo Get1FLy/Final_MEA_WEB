@@ -1,0 +1,56 @@
+.card-body p{
+    /* font-family: 'Poppins'; */
+    font-size: 16px;
+    margin: 1px 0px;
+    text-align: center;
+    height: fit-content;
+}
+.container{
+    font-family: 'Poppins';
+}
+.card-body span{
+font-weight: 500;
+}
+.card{
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.182);
+    /* margin-bottom: 0; */
+    width: 20rem;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+   transform: translateY(-20px);
+   cursor: pointer;
+
+}
+.card img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px 4px rgba(218, 208, 208, 0.437);
+}
+.card-body{
+    height: 103px;
+    border-bottom: rgba(232, 38, 38, 0.708) solid 4px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.heading h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+.team_card{
+    display: flex;
+    gap:80px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: solid; */
+}
+
+.outer_team_card{
+    /* border: solid 2px; */
+}

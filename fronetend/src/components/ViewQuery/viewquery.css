@@ -1,0 +1,23 @@
+.view_query_section{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 2rem;
+    border-radius:10px;
+}
+
+.main_query_info{
+    margin-top: 0rem;
+}
+
+#query_head{
+    color: navy;
+    font-weight: 700;
+}
+
+#save_btn{
+    background-color: navy;
+    border: 0;
+}
+.event_card{
+    transition: transform all 3s;
+}

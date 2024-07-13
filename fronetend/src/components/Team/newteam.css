@@ -1,0 +1,95 @@
+
+body{
+    font-family: 'Poppins','sans-serif';
+    color: white;
+    background-color: rgb(5, 5, 52);
+}
+
+.outer_team{
+margin: 50px;
+display: flex;
+/* border: solid; */
+margin-top: 30px;
+
+}
+.outer_card{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid green; */
+    justify-content: center;
+}
+
+.back_square{
+    height: 250px;
+    width: 200px;
+    /* background-color: rgba(143, 69, 69, 0.647); */
+    background-color: rgba(255, 255, 255, 0.658);
+
+    position: absolute;
+    z-index: -1;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.158);
+
+}
+.back_square:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.277);
+
+}
+
+.mem_img img{
+    margin-top: 0;
+    width: 200px;
+    height: 300px;
+    /* margin-bottom: 20px; */
+    object-fit:fill;
+    /* mix-blend-mode: multiply; */
+    transition: transform 0.3s ease;
+}
+.mem_img img:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
+    
+}
+.main_outer{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    width: 100%;
+    align-items: center;
+}
+.mem_img .text{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.mem_img .text p{
+    font-family: 'Poppins','sans-serif';
+    font-weight:500;
+    color:rgb(223, 33, 33);
+    margin:5px;
+}
+.text h4{
+    font-size: 20px;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 550;
+    color: rgb(10, 10, 75);
+    margin:5px;
+}
+
+.team_section{
+    background-color: rgba(255, 255, 255, 0.266);
+    border-radius: 10px;
+    width: 98rem;
+    box-shadow: 4px 4px 10px #ffffff74;
+    /* margin-top: 5rem; */
+    margin-bottom: 10px;
+    
+}
+.outer_team_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}

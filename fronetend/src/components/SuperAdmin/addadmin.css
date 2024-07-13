@@ -1,0 +1,40 @@
+.add-admin-form h3{
+    color: navy;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+
+   
+.add_admin_inputs{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.add-admin-form-container{
+    padding: 1rem 2rem;
+    width: 35rem;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.49);
+    border-radius: 10px;
+}
+
+.add_admin_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+circle{
+    
+    background-color: yellowgreen;
+}
+.add_admin_form label{
+    color: navy;
+}

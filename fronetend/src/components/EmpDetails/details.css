@@ -1,0 +1,42 @@
+
+
+.details_card{
+    display: flex;
+    gap:30px;
+    margin-top: 0px;
+    width: 100%;
+    /* border: solid 2px; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: rgb(7,7,50); */
+}
+.add-member-form{
+    width: 100%;
+}
+.details_main{
+    display: flex;
+    width: 100%;
+    /* margin: 20px 0px; */
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.registerbtn{
+    width: 1257px;
+}
+
+.add-member-form-container {
+    background-color: white;
+}
+
+.details_card label,p{
+    color: rgb(6, 6, 72);
+}
+hr{
+    color: black;
+}
+
+.form_sub_btn button{
+width: 100px;
+}

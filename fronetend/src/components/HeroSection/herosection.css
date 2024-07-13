@@ -1,0 +1,11 @@
+.carousel-inner{
+    height: 800px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.bd-placeholder-img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}

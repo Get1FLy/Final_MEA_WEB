@@ -1,0 +1,116 @@
+.hero_img_card{
+    width: 20rem;
+    height: 10rem;
+    object-fit: contain;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.186);
+    border-radius: 10px;
+}
+
+
+.hero_img_card img{
+    border-radius: 10px;
+}
+.view_hero_imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap:2rem;
+    padding: 0rem 1rem;
+    /* border: solid 2px; */
+}
+
+
+.add_img_card{
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.added_img_card {
+    width: 20rem;
+    height: 10rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.add_hero_section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+.add_img_card:hover{
+    cursor: pointer;
+}
+
+.add_img_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    /* margin-left: 9rem; */
+    gap:1rem;
+}
+.added_img_card{
+    object-fit: contain;
+}
+
+
+.hero_img_card {
+    position: relative;
+    width: 20rem;
+    height: 12rem;
+    overflow: hidden;
+}
+
+.hero_img_card img {
+    width: 20rem;
+    height: 10rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.186);
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.hero_img_card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.skeleton{
+    margin:15rem 20rem;
+    background-color: rgba(232, 236, 239, 0.279);
+    padding: 0rem 5rem;
+    color: red;
+    border-radius: 20px;
+    /* border:solid 2px green */
+}
+
+.login_sk{
+    margin: 15rem 10rem;
+}
